@@ -6,9 +6,11 @@ A production healthcare analytics platform I built for **Doctors Health Group** 
 
 | | |
 |---|---|
-| ![Sign in](docs/media/login-final.png) | ![Financials](docs/media/fin-full.png) |
-| ![Member claims](docs/media/member-claims.png) | ![Risk acuity](docs/media/acuity.png) |
-| ![Data feeds](docs/media/feeds-loaded.png) | ![User management](docs/media/admin-users.png) |
+| ![Sign in](docs/media/login-final.png) | ![Financials — service fund P&L](docs/media/fin-full.png) |
+| ![Member 360 — claims, pharmacy, quality](docs/media/member-claims.png) | ![Risk & RAF — recapture worklist](docs/media/risk-raf.png) |
+| ![Data feeds — live ingestion ledger](docs/media/feeds-loaded.png) | ![Care management — TRC clocks & census](docs/media/acuity.png) |
+
+*Screenshots show the productized demo tenant ("Palmetto Care Partners" — a fictional organization) on entirely synthetic data.*
 
 ## The three difference-makers
 
