@@ -6,11 +6,12 @@ A production healthcare analytics **and AI-agent** platform I built for **Doctor
 
 | | |
 |---|---|
-| ![Sign in](docs/media/login-final.png) | ![Financials — service fund P&L](docs/media/fin-full.png) |
-| ![Member 360 — claims, pharmacy, quality](docs/media/member-claims.png) | ![Risk & RAF — recapture worklist](docs/media/risk-raf.png) |
-| ![Data feeds — live ingestion ledger](docs/media/feeds-loaded.png) | ![Care management — TRC clocks & census](docs/media/acuity.png) |
+| ![Sign in](docs/media/login-final.png) | ![Financials — all-payers fund statement, statement of record](docs/media/fin-full.png) |
+| ![Member 360 — RAF, projection, fund P&L, payer-reported suspects](docs/media/member-360.png) | ![Member 360 — claims, pharmacy, quality gaps, care management, C-SNP](docs/media/member-claims.png) |
+| ![Risk & RAF — the risk-adjustment audit: pools, MAO-004 latency per payer, what to do next](docs/media/risk-audit.png) | ![Care management — ADT digest, admissions work queue, TRC clocks](docs/media/acuity.png) |
+| ![Quality Workspace — patients with open care gaps, buckets, owners, next visit](docs/media/quality-workspace.png) | ![Data feeds — live ingestion ledger](docs/media/feeds-loaded.png) |
 
-*Screenshots show the productized demo tenant ("Palmetto Care Partners" — a fictional organization) on entirely synthetic data.*
+*Screenshots (captured October 2026) show the productized demo tenant ("Palmetto Care Partners" — a fictional organization) on entirely synthetic data.*
 
 ## What it does for the organization
 
