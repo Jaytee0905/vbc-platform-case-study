@@ -6,6 +6,11 @@ design comments are faithful to what runs in production. These files are
 excerpts — they reference a surrounding application (ORM models, an ingestion
 pipeline) that is not included, so they illustrate rather than execute.
 
+Since these were written, the agent layer has grown into **Actuate** — three
+LLM-backed agents live in production behind a first-party gateway (see the main
+[README](../README.md)). The two excerpts here remain the deterministic
+foundations: no model calls, just the guards and the math.
+
 | File | What it is |
 |---|---|
 | [`cadence_monitor.py`](cadence_monitor.py) | The data-integrity cadence monitor: learns each feed's delivery rhythm from its own arrival history, probes content freshness, and maintains a non-spamming open/resolve alert lifecycle. Detects the nastiest real-world failure we've seen: a payer feed that keeps delivering files on schedule while the *content* inside silently stops advancing. |
